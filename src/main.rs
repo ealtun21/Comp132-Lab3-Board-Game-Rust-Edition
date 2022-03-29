@@ -126,4 +126,7 @@ fn main() {
 
     println!("--- The hidden board was: ---");
     display_board(&real_board);
+
+    // Inf Loop so the window doesn't close after game ends.
+    loop {}
 }
